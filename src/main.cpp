@@ -6,7 +6,7 @@ int main()
 {
     cout << "The following are the outputs of Queue implementation using Array:" << endl;
     Array_Queue aQueue;
-    cout << (aQueue.is_Empty() ? "Queue is empty." : "Queue is not empty") << endl;
+    cout << (aQueue.is_Empty() ? "Queue is empty." : "Queue is not empty.") << endl;
 
     aQueue.enqueue(4);
     cout << "Enqueued: 4" << endl;
@@ -24,7 +24,7 @@ int main()
 
     cout << "\nThe following are the outputs of Queue implementation using Linked List:" << endl;
     Linked_List_Queue Queue;
-    cout << (Queue.is_Empty() ? "Queue is empty." : "Queue is not empty") << endl;
+    cout << (Queue.is_Empty() ? "Queue is empty." : "Queue is not empty.") << endl;
 
     Queue.enqueue(0);
     cout << "Enqueued: 0" << endl;
