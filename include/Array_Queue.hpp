@@ -1,12 +1,12 @@
 #ifndef ARRAY_QUEUE_HPP
 #define ARRAY_QUEUE_HPP
-#define MAX_Queue_SIZE 10
+#define MAX_QUEUE_SIZE 10
 #include "Queue.hpp"
 
 class Array_Queue : public Queue
 {
 private:
-    int A_Queue[MAX_Queue_SIZE];
+    int A_Queue[MAX_QUEUE_SIZE];
     int frontIndex = -1;
     int rearIndex = -1;
 

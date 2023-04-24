@@ -16,7 +16,7 @@ bool Array_Queue::is_Empty()
 
 bool Array_Queue::is_Full()
 {
-    if (rearIndex == MAX_Queue_SIZE - 1)
+    if (rearIndex == MAX_QUEUE_SIZE - 1)
     {
         return true;
     }
